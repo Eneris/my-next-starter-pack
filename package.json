@@ -7,9 +7,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
-    "test": "npx eslint .",
-    "test-fix": "npx eslint . --fix",
-    "heroku-postbuild": "npm run build"
+    "test": "yarn eslint .",
+    "test-fix": "yarn eslint . --fix",
+    "heroku-postbuild": "yarn run build"
   },
   "author": "",
   "license": "ISC",
