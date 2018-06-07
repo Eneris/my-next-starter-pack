@@ -1,0 +1,53 @@
+{
+  "name": "my-starter-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "test": "npx eslint .",
+    "test-fix": "npx eslint . --fix",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^8.4.1",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "bootstrap": "^4.1.1",
+    "firebase": "^4.12.1",
+    "glob": "^7.1.2",
+    "isomorphic-unfetch": "^2.0.0",
+    "material-ui": "^1.0.0-beta.44",
+    "next": "^6.0.0",
+    "node-sass": "^4.9.0",
+    "normalize.css": "^8.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.1.5",
+    "prop-types": "^15.6.1",
+    "raw-loader": "^0.5.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-ga": "^2.5.2",
+    "reactstrap": "^6.0.1",
+    "sass-loader": "^7.0.1",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-plugin-styled-components": "^1.5.1",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-react": "^6.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "styled-jsx": "^2.2.6"
+  }
+}

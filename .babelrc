@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    "styled-jsx/babel",
+    [
+      "inline-import",
+      {
+        "extensions": [".css"]
+      }
+    ]
+  ],
+  "ignore": []
+}
